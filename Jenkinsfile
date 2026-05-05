@@ -14,7 +14,7 @@ pipeline{
             steps{
                 script{
                     echo 'Cloning Github repo to Jenkins............'
-                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'multi_ai_agent2', url: 'https://github.com/ahmedpasha746666/multi-ai-agent.git']])
+                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'multi-ai-agent', url: 'https://github.com/ahmedpasha746666/multi-ai-agent.git']])
                 }
             }
         }
