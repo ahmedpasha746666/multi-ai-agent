@@ -1,0 +1,110 @@
+2026-05-04 13:48:12,556 - INFO - starting backend service..
+2026-05-04 13:48:14,567 - INFO - Starting Frontend service
+2026-05-04 13:50:09,334 - INFO - Sending request to backend
+2026-05-04 13:50:09,352 - INFO - Received request for model : openai/gpt-oss-120b
+2026-05-04 13:50:09,366 - ERROR - Backend error
+2026-05-04 13:51:14,686 - INFO - Sending request to backend
+2026-05-04 13:51:14,691 - INFO - Received request for model : llama-3.3-70b-versatile
+2026-05-04 13:51:14,693 - ERROR - Backend error
+2026-05-04 13:52:41,784 - INFO - starting backend service..
+2026-05-04 13:52:43,793 - INFO - Starting Frontend service
+2026-05-04 13:53:14,503 - INFO - Sending request to backend
+2026-05-04 13:53:14,519 - INFO - Received request for model : llama-3.3-70b-versatile
+2026-05-04 13:53:14,761 - ERROR - Some error ocuured during reponse generation
+2026-05-04 13:53:14,763 - ERROR - Backend error
+2026-05-04 13:54:46,183 - INFO - Sending request to backend
+2026-05-04 13:54:46,187 - INFO - Received request for model : llama-3.3-70b-versatile
+2026-05-04 13:54:46,207 - ERROR - Some error ocuured during reponse generation
+2026-05-04 13:54:46,209 - ERROR - Backend error
+2026-05-04 13:56:26,418 - INFO - starting backend service..
+2026-05-04 13:56:28,421 - INFO - Starting Frontend service
+2026-05-04 13:56:52,046 - INFO - Sending request to backend
+2026-05-04 13:56:52,062 - INFO - Received request for model : llama-3.3-70b-versatile
+2026-05-04 13:56:52,226 - ERROR - Some error ocuured during reponse generation
+2026-05-04 13:56:52,229 - ERROR - Backend error
+2026-05-04 13:59:42,936 - INFO - Sending request to backend
+2026-05-04 13:59:42,940 - INFO - Received request for model : llama-3.3-70b-versatile
+2026-05-04 13:59:42,959 - ERROR - Some error ocuured during reponse generation
+2026-05-04 13:59:42,961 - ERROR - Backend error
+2026-05-04 14:01:20,612 - INFO - starting backend service..
+2026-05-04 14:01:22,618 - INFO - Starting Frontend service
+2026-05-04 14:01:48,326 - INFO - Sending request to backend
+2026-05-04 14:01:48,342 - INFO - Received request for model : llama-3.3-70b-versatile
+2026-05-04 14:01:48,508 - ERROR - Some error ocuured during reponse generation
+2026-05-04 14:01:48,510 - ERROR - Backend error
+2026-05-04 14:03:12,869 - INFO - starting backend service..
+2026-05-04 14:03:14,879 - INFO - Starting Frontend service
+2026-05-04 14:03:28,942 - INFO - Sending request to backend
+2026-05-04 14:03:28,958 - INFO - Received request for model : llama-3.3-70b-versatile
+2026-05-04 14:03:29,136 - ERROR - Some error ocuured during reponse generation
+2026-05-04 14:03:29,138 - ERROR - Backend error
+2026-05-04 14:05:06,890 - INFO - starting backend service..
+2026-05-04 14:05:08,896 - INFO - Starting Frontend service
+2026-05-04 14:05:32,595 - INFO - Sending request to backend
+2026-05-04 14:05:32,598 - INFO - Received request for model : llama-3.3-70b-versatile
+2026-05-04 14:05:32,621 - ERROR - Some error ocuured during reponse generation
+2026-05-04 14:05:32,623 - ERROR - Backend error
+2026-05-04 14:05:52,038 - INFO - starting backend service..
+2026-05-04 14:05:54,042 - INFO - Starting Frontend service
+2026-05-04 14:06:15,685 - INFO - Sending request to backend
+2026-05-04 14:06:15,701 - INFO - Received request for model : llama-3.3-70b-versatile
+2026-05-04 14:06:15,862 - ERROR - Error during response generation: create_react_agent() got unexpected keyword arguments: {'state_modifier': 'you are  a teacher'}
+Traceback (most recent call last):
+  File "C:\Users\Ahmed Pasha\Desktop\llm_ops\ops_practice\multi_ai_agent\app\backend\api.py", line 28, in chat_endpoint
+    response = get_response_from_ai_agents(
+  File "C:\Users\Ahmed Pasha\Desktop\llm_ops\ops_practice\multi_ai_agent\app\core\ai_agent.py", line 16, in get_response_from_ai_agents
+    agent = create_react_agent(
+  File "C:\Users\Ahmed Pasha\Desktop\llm_ops\ops_practice\multi_ai_agent\venv\lib\site-packages\typing_extensions.py", line 3004, in wrapper
+    return arg(*args, **kwargs)
+  File "C:\Users\Ahmed Pasha\Desktop\llm_ops\ops_practice\multi_ai_agent\venv\lib\site-packages\langgraph\prebuilt\chat_agent_executor.py", line 529, in create_react_agent
+    raise TypeError(
+TypeError: create_react_agent() got unexpected keyword arguments: {'state_modifier': 'you are  a teacher'}
+2026-05-04 14:06:15,869 - ERROR - Backend error
+2026-05-04 14:07:21,310 - INFO - starting backend service..
+2026-05-04 14:07:23,322 - INFO - Starting Frontend service
+2026-05-04 14:07:39,746 - INFO - Sending request to backend
+2026-05-04 14:07:39,760 - INFO - Received request for model : llama-3.3-70b-versatile
+2026-05-04 14:07:40,494 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:07:40,515 - INFO - Sucesfully got response from AI Agent llama-3.3-70b-versatile
+2026-05-04 14:07:40,517 - INFO - Sucesfully recived response from backend
+2026-05-04 14:08:15,475 - INFO - Sending request to backend
+2026-05-04 14:08:15,476 - INFO - Received request for model : openai/gpt-oss-120b
+2026-05-04 14:08:16,062 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:08:21,406 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:08:25,346 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:08:25,348 - INFO - Sucesfully got response from AI Agent openai/gpt-oss-120b
+2026-05-04 14:08:25,350 - INFO - Sucesfully recived response from backend
+2026-05-04 14:11:17,754 - INFO - Sending request to backend
+2026-05-04 14:11:17,762 - INFO - Received request for model : openai/gpt-oss-120b
+2026-05-04 14:11:18,394 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:11:23,694 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:11:23,697 - INFO - Sucesfully got response from AI Agent openai/gpt-oss-120b
+2026-05-04 14:11:23,698 - INFO - Sucesfully recived response from backend
+2026-05-04 14:12:40,349 - INFO - Sending request to backend
+2026-05-04 14:12:40,354 - INFO - Received request for model : openai/gpt-oss-120b
+2026-05-04 14:12:40,970 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:12:45,474 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:12:48,647 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:12:48,649 - INFO - Sucesfully got response from AI Agent openai/gpt-oss-120b
+2026-05-04 14:12:48,651 - INFO - Sucesfully recived response from backend
+2026-05-04 14:22:39,268 - INFO - Sending request to backend
+2026-05-04 14:22:39,273 - INFO - Received request for model : openai/gpt-oss-120b
+2026-05-04 14:22:39,800 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:22:44,612 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:22:47,275 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:22:54,237 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:22:54,240 - INFO - Sucesfully got response from AI Agent openai/gpt-oss-120b
+2026-05-04 14:22:54,242 - INFO - Sucesfully recived response from backend
+2026-05-04 14:26:14,475 - INFO - Sending request to backend
+2026-05-04 14:26:14,487 - INFO - Received request for model : openai/gpt-oss-120b
+2026-05-04 14:26:19,856 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 14:26:19,860 - INFO - Sucesfully got response from AI Agent openai/gpt-oss-120b
+2026-05-04 14:26:19,862 - INFO - Sucesfully recived response from backend
+2026-05-04 19:44:25,803 - INFO - starting backend service..
+2026-05-04 19:44:27,808 - INFO - Starting Frontend service
+2026-05-04 19:45:12,338 - INFO - Sending request to backend
+2026-05-04 19:45:12,385 - INFO - Received request for model : openai/gpt-oss-120b
+2026-05-04 19:45:13,116 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 19:45:16,907 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-04 19:45:16,910 - INFO - Sucesfully got response from AI Agent openai/gpt-oss-120b
+2026-05-04 19:45:16,913 - INFO - Sucesfully recived response from backend
